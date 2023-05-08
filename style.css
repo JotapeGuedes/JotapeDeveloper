@@ -22,12 +22,12 @@ body {
   nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     display: flex;
   }
   
   nav li {
-    margin-right: 20px;
+    margin-right: 2px;
   }
   
   nav a {
@@ -114,44 +114,8 @@ body {
     margin-right: 1200px;
   }
 
-  
-/* Estilos para dispositivos móveis */
+  iframe{
+    display: flex;
+    padding-left: 3.10cm;
 
-@media only screen and (max-width: 600px) {
-
-    header {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    nav ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    nav li {
-      margin: 10px 0;
-    }
-  
-    .hero h2 {
-      font-size: 36px;
-    }
-  
-    .hero p {
-      font-size: 18px;
-    }
-  
-    .button {
-      font-size: 14px;
-      padding: 8px 16px;
-    }
-  
-    .features li:before {
-      font-size: 16px;
-    }
-  
-    .footer {
-      font-size: 14px;
-    }
-  
   }
