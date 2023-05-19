@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:whgt@400;514&display=swap");
+* {
+  color: white;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #navItem:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowdown {
+  display: inline-block;
+  width: 90px;
+}
+
+.logoPC {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 40px;
+}
+
+#button {
+  border: 2px solid white;
+  padding: 15px 35px;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .CopyOBC {
+  color: #555252;
+}
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle {
+    width: auto;
+    font-size: 50px;
+  }
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 20px;
+  }
+}
+.container00.container01 {
+  background-image: url(../../images/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../images/home/03.jpg);
+}
+.container00.container03 {
+  background-image: url(../../images/home/02.gif);
+}
+.container00.container04 {
+  background-image: url(../../images/home/04.jpg);
+}
+
+.TitlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -5px;
+}
+
+.container00.container10 {
+  background-image: url(../../images/falcon9/01.jpg);
+}
+.container00.container11 {
+  background-image: url(../../images/falcon9/02.jpg);
+}
+.container00.carousel01 {
+  background-image: url(../../images/falcon9/03.jpg);
+}
+.container00.carousel02 {
+  background-image: url(../../images/falcon9/04.jpg);
+}
+.container00.carousel03 {
+  background-image: url(../../images/falcon9/05.jpg);
+}
+.container00.carousel04 {
+  background-image: url(../../images/falcon9/06.jpg);
+}
+.container00.carousel05 {
+  background-image: url(../../images/falcon9/07.jpg);
+}
+.container00.container13 {
+  background-image: url(../../images/falcon9/08.jpg);
+}
+.container00.carousel06 {
+  background-image: url(../../images/falcon9/09.jpg);
+}
+
+.TitlePaddingPage2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.TitlePage2 {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.numbersDesc {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 70px;
+  height: 40vh;
+  min-height: 16vh;
+  max-height: 30vh;
+  font-size: 90px;
+}
+
+.text-number {
+  font-size: 18px;
+}
+
+.ShortDescFalcon9 {
+  width: 650px;
+  font-size: 26px;
+  line-height: 50px;
+}
+
+.carousel-item {
+  width: 100%;
+}
+
+.TableOverview {
+  padding-top: 290px;
+  width: 500px;
+  margin-left: 220px;
+  line-height: 28px;
+}
+
+.carouselSlide img {
+  height: 100vh;
+}
+
+.DescSlides {
+  background-color: black;
+}
+
+.container00.container05 {
+  background-image: url(../../images/humanFlight/01.jpg);
+}
+.container00.container06 {
+  background-image: url(../../images/humanFlight/02.jpg);
+}
+.container00.container07 {
+  background-image: url(../../images/humanFlight/03.jpg);
+}
+.container00.container08 {
+  background-image: url(../../images/humanFlight/04.jpg);
+}
+.container00.container09 {
+  background-image: url(../../images/humanFlight/05.jpg);
+}
+
+.TitlePadding2 {
+  padding-top: 200px;
+  padding-left: 750px;
+}
+
+.TitlePadding3 {
+  padding-top: 280px;
+  margin-left: 70px;
+}
+
+.shortTitle3 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.shortTitle2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.mediumTitle2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.TitlePaddingPage3 {
+  font-size: 120px;
+  font-weight: 200;
+}
+
+.shortTitlePage3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.arrowndownpage3 {
+  width: 130px;
+  padding-top: 50px;
+}
+
+.eartDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eartparapgrah {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.emailpage3 {
+  color: #d8d8d8;
+  text-decoration: none;
+}
+.emailpage3:hover {
+  color: white;
+}
+
+.FooterDesc {
+  background-color: black;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerparagraph {
+  color: white;
+  font-size: 16px;
+  height: 85vh;
+  padding-top: 240px;
+  width: 950px;
+}
+
+.btndownload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Textodocontainer1{
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */

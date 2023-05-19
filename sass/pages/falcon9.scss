@@ -1,0 +1,91 @@
+.container00{
+  &.container10{
+    background-image: url(../../images/falcon9/01.jpg);
+  }
+  &.container11{
+    background-image: url(../../images/falcon9/02.jpg);
+  }
+  &.carousel01{
+    background-image: url(../../images/falcon9/03.jpg);
+  }
+  &.carousel02{
+    background-image: url(../../images/falcon9/04.jpg);
+  }
+  &.carousel03{
+    background-image: url(../../images/falcon9/05.jpg);
+  }
+  &.carousel04{
+    background-image: url(../../images/falcon9/06.jpg);
+  }
+  &.carousel05{
+    background-image: url(../../images/falcon9/07.jpg);
+  }
+  &.container13{
+    background-image: url(../../images/falcon9/08.jpg);
+  }
+  &.carousel06{
+    background-image: url(../../images/falcon9/09.jpg);
+  }
+}
+
+
+.TitlePaddingPage2{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.TitlePage2{
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.numbersDesc{
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 70px;
+  height: 40vh;
+  min-height: 16vh;
+  max-height: 30vh;
+  font-size: 90px;
+}
+
+.text-number{
+  font-size: 18px;
+}
+
+.ShortDescFalcon9{
+  width: 650px;
+  font-size: 26px;
+  line-height: 50px;
+
+}
+
+.carousel-item{
+  width: 100%;
+}
+
+
+.TableOverview{
+  padding-top: 290px;
+  width: 500px;
+  margin-left: 220px;
+  line-height: 28px;
+}
+
+.carouselSlide{
+  img{
+    height: 100vh;
+  }
+
+}
+.DescSlides{
+  background-color: black;
+}
+
